@@ -12,7 +12,7 @@ contract DeployPayments is Script {
 
         // Example payees and shares
         address[] memory payees = new address[](2);
-        payees[0] = 0x066d4646Ce97959fa45a933065946ED5A162E686; 
+        payees[0] = 0x066d4646Ce97959fa45a933065946ED5A162E686;
         payees[1] = 0x7cb653d1c6E4Df222DE5106134707Ce2Eaa704A3;
 
         uint256[] memory shares = new uint256[](2);
