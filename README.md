@@ -1,3 +1,5 @@
+![CI](https://github.com/Juniormaina/Avalanche-payments-foundry/actions/workflows/test.yml/badge.svg?branch=main)
+
 # Avalanche-payments-foundry
 
 Smart contract and payment splitter using Solidity on the Avalanche Fuji Testnet.  
