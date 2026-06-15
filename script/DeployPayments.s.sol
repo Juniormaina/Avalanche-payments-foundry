@@ -24,8 +24,8 @@ contract DeployPayments is Script {
         // --- Deploy VestingWallet ---
         VestingWallet vesting = new VestingWallet(
             0x066d4646Ce97959fa45a933065946ED5A162E686, // beneficiary
-            uint64(block.timestamp),                   // start time
-            365 days                                   // vesting duration
+            uint64(block.timestamp), // start time
+            365 days // vesting duration
         );
 
         vm.stopBroadcast();
